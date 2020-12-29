@@ -1,9 +1,7 @@
 # NewYearCountdown
 JavaScript webpage for New Year
 
-Please don´t change the code on GitHub
-You can download it but please do not Share it. 
-
+If u want to download and view it on PC --> download the .zip file
 I´ll keep updating the page. 
 
 If u find any bugs let me know! 
