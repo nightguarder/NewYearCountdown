@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Staatliches&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* background-image: url('../Webpage/crowned.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+body{
+    background-image: url("crownedfinal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* center the image , because its scaled to 100vh */
+    height: 100vh;  /* height of body fits the screen  */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* align everything to center */
+    justify-content: center;
+}
+/* don´t delete! */
+.container{
+    display: flex;
+}
+.Timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.container h4{
+font-family: 'Audiowide';
+text-shadow: transparent;
+display: block;
+color: white;
+text-transform: uppercase;
+padding: 5px;   /* h4 small text is displayed with gap */
+}
+.container h2{
+    color: black;
+    display: block;
+    font-family: 'Audiowide';
+    font-size: xx-large;
+}
+#firstH {
+    color: #fff;
+}
+header h1{ /* New Year Countdown */
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+font-size:xx-large;
+font-family: 'Audiowide';
+}
+
+.button1{ /* check date button */
+    color: white;
+    background-color: transparent;
+    border-color: #7a7a7a;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight:400;
+    font-size: medium;
+}
+.button1:hover{
+    border-color: black;
+    background-color: violet;
+}
+.button2{ /* refresh button */
+    color: white;
+    background-color: transparent;
+    border-color: #7a7a7a;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight:400;
+    font-size: medium;
+}
+.button2:hover{
+    border-color:black;
+    background-color: violet;
+}
+.button3{ /* what year is it? */
+    color: white;
+    background-color: transparent;
+    border-color: #7a7a7a;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight:400;
+    font-size: medium;
+}
+.button3:hover{
+    border-color:black;
+    background-color: violet;
+}
+.clock p{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: medium;
+}

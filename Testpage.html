@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown 2021</title>
+    <script src="newYear.js"></script>
+    <link rel="stylesheet" href="Testpage.css">
+    <script src="https://kit.fontawesome.com/fb46939310.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <h1 id="firstH">2021</h1>
+    <h1>New Year Countdown</h1>
+</header>
+<body>
+    <div id="container" class ="container">
+        <div class="Timer">
+            <h2 id="days"></h2>
+            <h4>days</h4>
+        </div>
+        <div class="Timer">
+            <h2 id="hours"></h2>
+            <h4>hours</h4>
+        </div>
+        <div class="Timer">
+            <h2 id="minutes"></h2>
+            <h4>minutes</h4>
+        </div>
+        <div class="Timer">
+            <h2 id="seconds"></h2>
+            <h4>seconds</h4>
+        </div>
+    </div>
+    <!-- <div id="time"> <h3>Current time:</h3></div> -->
+    <div id="clock"><p></p></div>
+    <br>
+    <!-- <input type="button" value="Check Date" onclick="check()"> -->
+    <!-- <input type="button" value="Refresh" onclick="refresh()"> -->
+    <button type="button" class="button2" name="Refresh"onclick="refresh()">Refresh <i class="fas fa-sync-alt fa-spin fa-fw"></i></button>
+    <!-- <input type="button" value="What year is it?" onclick="play()"> -->
+    <button type="button"  class="button3"name="What Year is it?" onclick="play()">What Year is it? <i class="fas fa-question"></i></button>
+    <button type="button" class="button1"name="Check Date" onclick="check()">Check Date <i class="far fa-calendar-check"></i></button>
+    <div id="check"></div>
+</body>
+</html>
