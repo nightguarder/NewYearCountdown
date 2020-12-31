@@ -1,7 +1,7 @@
 # NewYearCountdown
 JavaScript webpage for New Year
 
-Download the latest version now! -->NewYear (2.1).zip
+Download the latest version now! -->NewYear (2.2).zip
 
 If u want to download and view it on PC --> download the .zip file
 
