@@ -75,14 +75,18 @@ font-family: 'Audiowide';
     border-color: #7a7a7a;
     display: inline-block;
     text-align: center;
+    margin: 5px;
+    padding: 5px; 
+    border: 0px;
     position: relative;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu' sans-serif;
     font-weight:400;
     font-size: medium;
 }
 .button2:hover{
     border-color:black;
     background-color: violet;
+    padding: 5px;
 }
 .button3{ /* what year is it? */
     color: white;
@@ -90,6 +94,9 @@ font-family: 'Audiowide';
     border-color: #7a7a7a;
     display: inline-block;
     text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: 0px;
     position: relative;
     font-family: 'Ubuntu';
     font-weight:400;
@@ -98,9 +105,41 @@ font-family: 'Audiowide';
 .button3:hover{
     border-color:black;
     background-color: violet;
+    padding: 5px;
+    
 }
 .clock p{
     font-family: 'Ubuntu';
     font-weight: 400;
     font-size: medium;
+}
+.button4{ /* pause song */
+    color: white;
+    background-color: rgb(255, 100, 0);
+    border-color: #7a7a7a;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight:400;    
+    font-size: medium;
+}
+.button4:hover{
+    border-color:black;
+    background-color: transparent;
+}
+.button5{ /* Celebrate! */
+    color: white;
+    background-color: rgb(255, 100, 0);
+    border-color: #7a7a7a;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu';
+    font-weight:400;    
+    font-size: medium;
+}
+.button5:hover{
+    border-color:black;
+    background-color: transparent;
 }

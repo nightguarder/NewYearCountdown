@@ -4,7 +4,6 @@ console.log(curYear);
 function refresh(){
     location.reload();
 }
-
 //Countdown + Timer
 //why constants ? CONSTANTS DONT WORK!!!!
 /* const seconds =document.getElementById('seconds');
@@ -50,6 +49,13 @@ function timeRemaining(){
 
     let day=Math.floor(results/1000/60/60/24)  //days
     document.getElementById("days").innerHTML=day;
+    /* console.log(results); */ //displays time in miliseconds
+
+    if (results<00000000){  //start Happy new Year
+        console.log("Hey it works")
+        this.HappyNewYearlolol();
+    }
+    
 
 }
 setInterval(timeRemaining,1000); //updates the clock every second
@@ -62,9 +68,9 @@ function play(){ //Check  What Year is it?
     alert("Happy New Year! :)")
     else if (ask==2077) //easter egg
     alert("Waiting for Cyberpunk? xD")
-    else if (ask>2021)
+    else if (ask>2022)
     alert("You're from the future?")
-    else if (ask<2020)
+    else if (ask<2021)
     alert("You´re here too early :(")
 
     else 
@@ -85,6 +91,40 @@ function check(){ //Is it 2021 yet button?
     let br=document.createElement("br")
     document.getElementById("newP").appendChild(br);
 }
+function HappyNewYearlolol(){ //call this onNewYear
+confetti.start(180000);//3 minutes conffettiiiiiiii
+document.getElementById("bestsong").play(); //plays the song 3:28sec
+let change=document.getElementById("secondH").innerHTML="Happy New Year!";
+let displayGif=document.getElementById("gifmeme").style.display="";
+/* let deleteGif=document.getElementById("Bonergif").style="display: none;"; */
+/* let newmeme=document.getElementById("Bonergif2").style=""; */
+displayButton();
+return change +displayGif;
+}
+function pauseSong(){ //pause confetti, and song
+    document.getElementById("bestsong").pause();
+    confetti.pause();
+    /* setTimeout(deleteEverything(),2000000); */
+}
+function deleteEverything(){
+    console.log("timeout started")
+    setTimeout(deleteEverything,2000000);
+    console.log("timeout ended")
+    document.getElementById("Bonergif").remove();
+    confetti.stop();
+    document.getElementById("Bonergif3").remove();
+}
+//shows the pause and Celebrate button
+function displayButton(){
+/* let meme=document.getElementById("Bonergif3").style.display="";  */   
+let boner=document.getElementById("button4").style.display="";
+let boner2=document.getElementById("button5").style.display=""; 
+return boner +boner2;
+}
+/* testing 
+function startConfetti(){
+    confetti.start(15000);
+} */
 function displayTime(){
     
     let clock=new Date();
@@ -99,3 +139,5 @@ function displayTime(){
 setInterval(() => {
     displayTime()
 }, 1000);
+
+//seTimeout(playVideo(),2000ms)

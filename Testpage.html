@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown 2021</title>
     <script src="newYear.js"></script>
+    <script src="confetti.js-master/confetti.js"></script>
     <link rel="stylesheet" href="Testpage.css">
     <script src="https://kit.fontawesome.com/fb46939310.js" crossorigin="anonymous"></script>
+    
 </head>
 <header>
-    <h1 id="firstH">2021</h1>
-    <h1>New Year Countdown</h1>
+    <h1 id="firstH">2022</h1>
+    <h1 id="secondH">New Year Countdown</h1>
 </header>
 <body>
-    <div id="container" class ="container">
+    <div id="gif" class="gifadudio" display="">
+        <img src="BoneyM-cool.gif" id ="gifmeme"alt="gifmeme" style="display: none;" >
+        <img src="lastmemeipromise.png" id ="Bonergif2"alt="Bonergif" style="display: none;" >
+        <audio id="bestsong"  src="Daddy_Cool.mp3"></audio>
+    </div>
+        <div id="container" class ="container">
         <div class="Timer">
             <h2 id="days"></h2>
             <h4>days</h4>
@@ -40,6 +47,10 @@
     <!-- <input type="button" value="What year is it?" onclick="play()"> -->
     <button type="button"  class="button3"name="What Year is it?" onclick="play()">What Year is it? <i class="fas fa-question"></i></button>
     <!-- <button type="button" class="button1"name="Check Date" onclick="check()">Check Date <i class="far fa-calendar-check"></i></button> -->
-    <div id="check"></div>
+    <button type="button" class="button4" id="button4"name="pausemusic" style="display: none;" onclick="pauseSong()">Pause Song</button>
+    <button type="button" class="button5" id="button5"name="celebrate!" style="display: none;" onclick="HappyNewYearlolol()">Celebrate!</button>
+    <div id="check">
+    </div>
+</div> <!--gif div-->
 </body>
 </html>
